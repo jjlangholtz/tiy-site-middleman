@@ -41,11 +41,20 @@
 # end
 
 # Methods defined in the helpers block are available in templates
-# helpers do
-#   def some_helper
-#     "Helping"
-#   end
-# end
+helpers do
+  def locations
+    { 'Asheville, NC'    => '#',
+      'Atlanta, GA'      => '#',
+      'Austin, TX'       => '#',
+      'Charleston, SC'   => '#',
+      'Columbia, SC'     => '#',
+      'Durham, NC'       => '#',
+      'Greenville, SC'   => '#',
+      'Houston, TX'      => '#',
+      'Spartanburg, SC'  => '#',
+      'Tampa, FL'        => '#' }
+  end
+end
 
 set :css_dir, 'stylesheets'
 

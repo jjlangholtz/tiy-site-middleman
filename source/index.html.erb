@@ -13,16 +13,9 @@ title: The Iron Yard
 <h2>Locations</h2>
 
 <ul>
-  <li><a href="#">Asheville, NC</a></li>
-  <li><a href="#">Atlanta, GA</a></li>
-  <li><a href="#">Austin, TX</a></li>
-  <li><a href="#">Charleston, SC</a></li>
-  <li><a href="#">Columbia, SC</a></li>
-  <li><a href="#">Durham, NC</a></li>
-  <li><a href="#">Greenville, SC</a></li>
-  <li><a href="#">Houston, TX</a></li>
-  <li><a href="#">Spartanburg, SC</a></li>
-  <li><a href="#">Tampa, FL</a></li>
+  <% locations.each do |key, value| %>
+    <li><%= link_to key, value %></li>
+  <% end %>
 </ul>
 
-<a href="#">Follow us on Twitter</a>
+<%= link_to 'Follow us on Twitter', '#' %>
