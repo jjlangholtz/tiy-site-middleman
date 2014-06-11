@@ -1,0 +1,20 @@
+---
+title: The Iron Yard
+---
+
+img[src='http://tiy-durham-june2014-frontend.github.io/iron-slides/images/tiy-logo.png' alt='The Iron Yard and Smashing Boxes logo']
+
+h1 Welcome to The Iron Yard powered by Smashing Boxes.
+
+h2 Learn to code. Get a job. Guaranteed.
+
+p <strong>The Iron Yard Academy</strong> teaches intensive, three-month courses that mentor you into a professional junior-level programmer. Our program goes far beyond tactical skills and teaches you how to think like a <em>software engineer</em>. Programming is a lifelong study, and our process shows you how to learn how to <em>learn so you remain highly valuable for the rest of your career</em>.
+
+h2 Locations
+
+ul
+  - locations.each do |key, value|
+    li= link_to key, value
+
+= link_to 'Follow us on Twitter', '#'
+

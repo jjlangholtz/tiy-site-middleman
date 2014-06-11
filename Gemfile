@@ -15,3 +15,6 @@ gem "tzinfo-data", platforms: [:mswin, :mingw]
 
 # Haml view template
 gem 'haml'
+
+# Slim view template
+gem 'slim'
